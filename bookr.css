@@ -1,0 +1,161 @@
+:root {
+    --o-wordcolor-color: #ffffff;
+    --o-undercolor-color: #b1b1b1;
+    --o-par-font-family: 'Segoe UI';
+    --o-bar-font-family: 'Trebuchet MS';
+    --o-bookrcolor-background-color: #342b9e;
+}
+
+body {
+   margin: 0px;
+    background-image: url(images/undraw_book_lover_mkck.svg);
+}
+
+
+/*==========  ID Rules  ==========*/
+#reader-image {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+}
+
+#header-align {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px 100px 50px 100px;  
+}
+
+#list-body {
+    width: 100%;
+    height: 100%;
+}
+
+#flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#progress-percent {
+    margin: 0px;
+    float: right; 
+    position: absolute;
+    margin: 100px 0px 20px 450px;
+}
+
+
+
+/*==========  Class Rules  ==========*/
+.books-rect button {
+    float: right;
+    width: 150px;
+    font-size: 20px;
+    color: #ff0000;
+    margin: 55px 25px 25px 0px;
+}
+
+.books-rect p {
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.books-rect {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    background-color: var(--o-bookrcolor-background-color);
+}
+
+.progress {
+    margin: 0px;
+    width: 200px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #00ff00;
+}
+
+.progress-tracker {
+    width: 400px;
+    height: 10px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    background-color: var(--o-wordcolor-color);
+}
+
+
+
+
+
+
+
+/*==========  Element Rules  ==========*/
+
+h1 {
+    margin: 0px;
+    font-size: 70px;
+    text-align: center;
+    color: var(--o-wordcolor-color);
+    font-family: var(--o-par-font-family);
+}
+
+h2 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 0px; 
+    color: var(--o-wordcolor-color);
+    font-family: var(--o-par-font-family);
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    color: var(--o-undercolor-color);
+    font-family: var(--o-bar-font-family);
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 80px;
+    background-color: var(--o-bookrcolor-background-color);
+}
+
+button {
+    width: 80px;
+    padding: 5px;
+    margin-left: 25px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    font-family: var(--o-bar-font-family);
+    color: var(--o-bookrcolor-background-color);
+}
+
+input {
+    width: 60%;
+    background-color: transparent;
+    color: var(--o-wordcolor-color);
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid  transparent;
+    border-bottom: 2px  solid #ffffff;
+}
+
+
+
+
+/*==========  Animation and Pseudo Rules  ==========*/
+button:hover {
+    cursor: pointer;
+}
+
+
+
+@media only screen and (orientation: landscape) {
+    
+}
