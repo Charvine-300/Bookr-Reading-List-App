@@ -7,8 +7,8 @@
 }
 
 body {
-   margin: 0px;
-    background-image: url(images/undraw_book_lover_mkck.svg);
+ 
+   background-image: url(images/undraw_book_lover_mkck.svg);
 }
 
 
@@ -72,7 +72,7 @@ body {
 
 .progress {
     margin: 0px;
-    width: 200px;
+    width: 0px;
     height: 10px;
     border-radius: 50px;
     background-color: #00ff00;
@@ -137,7 +137,8 @@ button {
 }
 
 input {
-    width: 60%;
+    width: 70%;
+    margin-bottom: 20px;
     background-color: transparent;
     color: var(--o-wordcolor-color);
     border-top: 2px solid transparent;
@@ -156,7 +157,7 @@ button:hover {
 
 
 
-@media only screen and (orientation: landscape) {
+@media only screen and (min-width: 1024px) {
     #reader-image {
         padding-left: 0px;
         padding-right: 0px;
@@ -173,8 +174,8 @@ button:hover {
         width: 50%;
     }
 
-    .reader-image {
-        padding: 30px;
+    #reader-image {
+        padding: 0px;
     }
 
     #flex-box {
