@@ -157,5 +157,42 @@ button:hover {
 
 
 @media only screen and (orientation: landscape) {
-    
+    #reader-image {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header {
+        width: 70%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    #header-align {
+        width: 50%;
+    }
+
+    .reader-image {
+        padding: 30px;
+    }
+
+    #flex-box {
+        flex-direction: row;
+    }
+
+    .list-body {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .books-rect {
+        width: 45%;
+       margin-right: auto;
+       margin-left: auto;
+      
+    }
 }
