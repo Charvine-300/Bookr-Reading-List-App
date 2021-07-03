@@ -14,9 +14,11 @@
                 <div id="header-align">
                     <h1> Bookr. </h1>
                     <p> Home of the bibilophiles. </p>
-                    <input type="text" placeholder="Book Title..."/>
-                    <input type="text" placeholder="Book Author..."/>
-                    <button type="submit"> Add Book </button>
+                    <form name="Form" action="#" method="GET">
+                        <input type="text" name="title" id="title" placeholder="Book Title..."/>
+                        <input type="text" name="author" id="author" placeholder="Book Author..."/>
+                        <button type="submit"> Add Book </button>
+                    </form>
                 </div>
             </header>
 
@@ -196,6 +198,7 @@
             </div>
 
         </div>
-
+        
+        <script src="bookr.js"></script>
     </body>
 </html>

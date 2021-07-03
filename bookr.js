@@ -3,6 +3,9 @@ function setUp() {
     var button = document.getElementById("add");
     var newcomer = document.getElementById("flex-box");
 
+    function Tamers() {
+        location.assign(index.html);
+    }
 
     master.title.onfocus = function() {
         master.title.style.backgroundColor = "#ffffff";
@@ -27,7 +30,7 @@ function setUp() {
 
 
     master.onsubmit = function(event) {
-        event.returnValue = false;
+        event.preventDefault();
         
         var breaker = document.createElement("div");
         breaker.setAttribute("class", "books-rect");
@@ -55,8 +58,9 @@ function setUp() {
         box.appendChild(second);
         box.appendChild(third);
 
+        addEventListener(submit, setTimeout(Tamers, 3000), true);
 
-        event.returnValue = true;
+
     }
 
     button.onsubmit(submit);
