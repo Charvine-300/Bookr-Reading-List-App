@@ -14,7 +14,9 @@
                 <div id="header-align">
                     <h1> Bookr. </h1>
                     <p> Home of the bibilophiles. </p>
-                    <form name="Form" action="#" method="GET">
+                    <form name="Form" action="#" method="POST">
+                        <input type="text" name="searchbox" id="search" placeholder="Book Search..."/>
+
                         <input type="text" name="title" id="title" placeholder="Book Title..."/>
                         <input type="text" name="author" id="author" placeholder="Book Author..."/>
                         <button type="submit"> Add Book </button>
@@ -196,6 +198,16 @@
                 </div>
 
             </div>
+
+            <footer>
+                <div id="footer-align">
+                    <h1> Book Search </h1>
+                    <form name="booksearch" id="search" action="#" method="GET">
+                        <input name="searchbox" id="book-search" placeholder="Book Search..."/>
+                    </form>
+                </div>
+
+            </footer>
 
         </div>
         

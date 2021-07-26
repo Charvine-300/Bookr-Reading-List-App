@@ -1,11 +1,9 @@
 function setUp() {
     var master = document.forms.Form;
+    var mistro = document.forms.booksearch;
     var button = document.getElementById("add");
     var newcomer = document.getElementById("flex-box");
 
-    function Tamers() {
-        location.assign(index.html);
-    }
 
     master.title.onfocus = function() {
         master.title.style.backgroundColor = "#ffffff";
@@ -27,6 +25,27 @@ function setUp() {
         master.author.style.backgroundColor = "transparent";
         master.author.style.color = "#ffffff";
     }
+
+    mistro.searchbox.onfocus = function() {
+        mistro.searchbox.style.backgroundColor = "#ffffff";
+        mistro.searchbox.style.color = "#342b9e";
+    }
+
+    mistro.searchbox.onblur = function() {
+        mistro.searchbox.style.backgroundColor = "transparent";
+        mistro.searchbox.style.color = "#ffffff";
+    }
+
+
+    /*Book Search
+    var searchBar = mistro.querySelector("input");
+    console.log(searchBar);
+
+    searchBar.addEventlistener("keyup", function(e){
+        const term = e.target.value.toLowerCase();
+        const books = document.querySelectorAll(".books-rect");
+        const search = books.getElementsByTa
+    } )*/
 
 
     master.onsubmit = function(event) {
@@ -57,15 +76,9 @@ function setUp() {
         box.appendChild(first);
         box.appendChild(second);
         box.appendChild(third);
-
-        addEventListener(submit, setTimeout(Tamers, 3000), true);
-
-
     }
 
     button.onsubmit(submit);
-
-    console.log(breaker);
 
 }
 
